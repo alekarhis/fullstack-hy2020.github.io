@@ -546,7 +546,7 @@ Now we know that both interfaces *CoursePartBasic* and *CoursePartBackground* sh
 
 Your first task is to declare a new interface that includes the *description* attribute and extends the *CoursePartBase* interface. Then modify the code so that you can remove the *description* attribute from both *CoursePartBasic* and *CoursePartBackground*  without getting any errors.
 
-Then create a component *Part* that renders all attributes of each type of course part. Use a switch case-based exhaustive type checking! Use the new component in component *Content*.
+Then create a component *Part* that renders all attributes of each course part. Use a switch case-based exhaustive type checking! Use the new component in component *Content*.
 
 Lastly, add another course part interface with the following attributes: *name*, *exerciseCount*, *description* and *requirements*, the latter being a string array. The objects of this type look like the following:
 
